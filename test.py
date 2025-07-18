@@ -1,9 +1,9 @@
 a = 1
 b = 2
-if(a  < 3):
-  print("a is smaller then 3")
-else:
-  print("a is grater then 3")
-
-
-print("hello buddy")
+c = 3
+ if (a>b and a>c):
+   print("a is the largest number")
+ elif (b > a and b>c):
+   print("b id the largest number")
+ else:
+   print("c is the largest number")
